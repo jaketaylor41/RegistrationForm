@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 /Applications/MAMP/htdocs/registrationForm
+web: vendor/bin/heroku-php-apache2
