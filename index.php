@@ -15,7 +15,7 @@ $personConfirmPassword = $_GET['confirmPassword'];
 //echo "Hello " . $firstName . ", welcome to the blog!";
 
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$servername = "mysql";
+$servername = "heroku";
 $username = "b68e314c37d579";
 $password = "980c8efd";
 $database_name = "heroku_61e6cc90a4490bb";
