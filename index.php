@@ -31,7 +31,7 @@ if (!$connection) {
 //echo "Connected successfully";
 
 
-$sql_statement = "INSERT INTO `heroTable` (`id`, `fName`, `lName`, `email`, `confirmEmail`, `birthday`, `username`, `password`, `confirmPassword`) VALUES (NULL, '$firstName', '$lastName', '$personEmail', '$personConfirmEmail', '$personBirthday', '$personUsername', '$personPassword', '$personConfirmPassword')";
+$sql_statement = "INSERT INTO `heroku_61e6cc90a4490bb` (`id`, `fName`, `lName`, `email`, `confirmEmail`, `birthday`, `username`, `password`, `confirmPassword`) VALUES (NULL, '$firstName', '$lastName', '$personEmail', '$personConfirmEmail', '$personBirthday', '$personUsername', '$personPassword', '$personConfirmPassword')";
 
 if (mysqli_query($connection, $sql_statement)) {
 //    echo "New record created successfully";
