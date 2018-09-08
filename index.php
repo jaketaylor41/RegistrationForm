@@ -14,6 +14,7 @@ $personConfirmPassword = $_GET['confirmPassword'];
 
 //echo "Hello " . $firstName . ", welcome to the blog!";
 
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $servername = "localhost";
 $username = "root";
 $password = "root";
