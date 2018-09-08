@@ -22,7 +22,7 @@ $database_name = "heroku_61e6cc90a4490bb";
 $
 
 // Create connection
-$connection = mysqli_connect($servername, $username, $password, $database_name, $url);
+$connection = mysqli_connect($servername, $username, $password, $database_name);
 
 // Check connection
 if (!$connection) {
