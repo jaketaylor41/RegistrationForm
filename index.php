@@ -1,4 +1,6 @@
-<?php
+<?php header( 'Location: /index.html' );
+
+
 include 'homePage.html';
 $firstName = addslashes($_GET['fNameInput']);
 $lastName = addslashes($_GET['lNameInput']);
@@ -16,6 +18,7 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 $database_name = "registration_form";
+$
 
 // Create connection
 $connection = mysqli_connect($servername, $username, $password, $database_name);
