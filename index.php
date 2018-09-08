@@ -16,13 +16,13 @@ $personConfirmPassword = $_GET['confirmPassword'];
 
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$database_name = "registration_form";
+$username = "b68e314c37d579";
+$password = "980c8efd";
+$database_name = "heroku_61e6cc90a4490bb";
 $
 
 // Create connection
-$connection = mysqli_connect($servername, $username, $password, $database_name);
+$connection = mysqli_connect($servername, $username, $password, $database_name, $url);
 
 // Check connection
 if (!$connection) {
