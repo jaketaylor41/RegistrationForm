@@ -9,16 +9,17 @@
 //$personPassword = $_GET['passwordInput'];
 //$personConfirmPassword = $_GET['confirmPassword'];
 //echo "Hello " . $firstName . ", welcome to the blog!";
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-$host = "us-cdbr-iron-east-01.cleardb.net";
-$username = "b68e314c37d579";
-$password = "980c8efd";
-$database_name = "heroku_61e6cc90a4490bb";
+$server = $url["us-cdbr-iron-east-01.cleardb.net"];
+$username = $url["b68e314c37d579"];
+$password = $url["980c8efd"];
+$database_name = substr($url["heroku_61e6cc90a4490bb"], 1);
 $errors = array();
 
 
 // Create connection
-$connection = mysqli_connect($host, $username, $password, $database_name);
+$connection = new mysqli($server, $username, $password, $database_name);
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
