@@ -19,7 +19,7 @@ $errors = array();
 
 
 // Create connection
-$connection = new mysqli($server, $username, $password, $database_name);
+$connection = new mysqli($url, $server, $username, $password, $database_name);
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
