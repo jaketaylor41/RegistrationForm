@@ -10,15 +10,15 @@
 //$personConfirmPassword = $_GET['confirmPassword'];
 //echo "Hello " . $firstName . ", welcome to the blog!";
 
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$database_name = "registration_form";
+$host = "us-cdbr-iron-east-01.cleardb.net";
+$username = "b68e314c37d579";
+$password = "980c8efd";
+$database_name = "heroku_61e6cc90a4490bb";
 $errors = array();
 
 
 // Create connection
-$connection = mysqli_connect($servername, $username, $password, $database_name);
+$connection = mysqli_connect($host, $username, $password, $database_name);
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f8447d3-c78b-4443-bc54-c053dc9516a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,14 +57,14 @@
           <entry key="Procfile" value="115" />
           <entry key="html" value="1245" />
           <entry key="json" value="2" />
-          <entry key="php" value="1281" />
+          <entry key="php" value="1298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1248" />
           <entry key="JSON" value="2" />
-          <entry key="PHP" value="1278" />
+          <entry key="PHP" value="1295" />
           <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
@@ -86,23 +84,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="169">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="e#7#54#0#PHP" expanded="true" />
-                <marker date="1536440320000" expanded="true" signature="425:451" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-462">
+            <state relative-caret-position="-562">
               <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
@@ -142,8 +139,8 @@
         <option value="$PROJECT_DIR$/homePage.html" />
         <option value="$PROJECT_DIR$/errors.php" />
         <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/server.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/server.php" />
       </list>
     </option>
   </component>
@@ -220,18 +217,18 @@
       <updated>1536267120549</updated>
       <workItem from="1536267121761" duration="98000" />
       <workItem from="1536267223823" duration="12436000" />
-      <workItem from="1536340029881" duration="22957000" />
+      <workItem from="1536340029881" duration="23437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35491000" />
+    <option name="totallyTimeSpent" value="35971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1260" height="689" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2816092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2816092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,7 +241,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32998326" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -324,21 +321,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#7#54#0#PHP" expanded="true" />
-            <marker date="1536440320000" expanded="true" signature="425:451" ph="..." />
-          </folding>
+        <state relative-caret-position="-562">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="169">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#7#54#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
