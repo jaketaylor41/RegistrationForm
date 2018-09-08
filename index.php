@@ -14,15 +14,14 @@ $personConfirmPassword = $_GET['confirmPassword'];
 
 //echo "Hello " . $firstName . ", welcome to the blog!";
 
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-//$servername = "heroku";
-$username = "b68e314c37d579";
-$password = "980c8efd";
-$database_name = "heroku_61e6cc90a4490bb";
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$database_name = "registration_form";
 $
 
 // Create connection
-$connection = mysqli_connect($username, $password, $database_name);
+$connection = mysqli_connect($servername, $username, $password, $database_name);
 
 // Check connection
 if (!$connection) {
@@ -31,7 +30,7 @@ if (!$connection) {
 //echo "Connected successfully";
 
 
-$sql_statement = "INSERT INTO `heroku_61e6cc90a4490bb` (`id`, `fName`, `lName`, `email`, `confirmEmail`, `birthday`, `username`, `password`, `confirmPassword`) VALUES (NULL, '$firstName', '$lastName', '$personEmail', '$personConfirmEmail', '$personBirthday', '$personUsername', '$personPassword', '$personConfirmPassword')";
+$sql_statement = "INSERT INTO `heroTable` (`id`, `fName`, `lName`, `email`, `confirmEmail`, `birthday`, `username`, `password`, `confirmPassword`) VALUES (NULL, '$firstName', '$lastName', '$personEmail', '$personConfirmEmail', '$personBirthday', '$personUsername', '$personPassword', '$personConfirmPassword')";
 
 if (mysqli_query($connection, $sql_statement)) {
 //    echo "New record created successfully";
