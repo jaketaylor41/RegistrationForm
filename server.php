@@ -15,7 +15,7 @@ $server = $url["us-cdbr-iron-east-01.cleardb.net"];
 $username = $url["b68e314c37d579"];
 $password = $url["980c8efd"];
 $database_name = substr($url["heroku_61e6cc90a4490bb"], 1);
-$errors = array();
+//$errors = array();
 
 
 // Create connection
@@ -33,22 +33,22 @@ if (isset($_POST['reg_user'])) {
     $personPassword = mysqli_real_escape_string($connection, $_POST['passwordInput']);
     $personConfirmPassword = mysqli_real_escape_string($connection, $_POST['confirmPassword']);
 
-    // form validation: ensure that the form is correctly filled ...
-    // by adding (array_push()) corresponding error unto $errors array
-    if (empty($firstName)) { array_push($errors, "First name is required"); }
-    if (empty($lastName)) { array_push($errors, "Last name is required"); }
-    if (empty($personEmail)) { array_push($errors, "Email is required"); }
-    if (empty($personConfirmEmail)) { array_push($errors, "Confirm Email is required"); }
-    if (empty($personBirthday)) { array_push($errors, "DOB is required"); }
-    if (empty($personUsername)) { array_push($errors, "Username is required"); }
-    if (empty($personPassword)) { array_push($errors, "Password is required"); }
-    if (empty($personConfirmPassword)) { array_push($errors, "Confirm password is required"); }
-    if ($personPassword != $personConfirmPassword) {
-        array_push($errors, "The two passwords do not match");
-    }
-    if ($personEmail != $personConfirmEmail) {
-        array_push($errors, "The two emails do not match");
-    }
+//    // form validation: ensure that the form is correctly filled ...
+//    // by adding (array_push()) corresponding error unto $errors array
+//    if (empty($firstName)) { array_push($errors, "First name is required"); }
+//    if (empty($lastName)) { array_push($errors, "Last name is required"); }
+//    if (empty($personEmail)) { array_push($errors, "Email is required"); }
+//    if (empty($personConfirmEmail)) { array_push($errors, "Confirm Email is required"); }
+//    if (empty($personBirthday)) { array_push($errors, "DOB is required"); }
+//    if (empty($personUsername)) { array_push($errors, "Username is required"); }
+//    if (empty($personPassword)) { array_push($errors, "Password is required"); }
+//    if (empty($personConfirmPassword)) { array_push($errors, "Confirm password is required"); }
+//    if ($personPassword != $personConfirmPassword) {
+//        array_push($errors, "The two passwords do not match");
+//    }
+//    if ($personEmail != $personConfirmEmail) {
+//        array_push($errors, "The two emails do not match");
+//    }
 
     // first check the database to make sure
     // a user does not already exist with the same username and/or email
