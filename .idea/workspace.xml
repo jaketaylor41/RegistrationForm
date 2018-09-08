@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f8447d3-c78b-4443-bc54-c053dc9516a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-    </list>
+    <list default="true" id="7f8447d3-c78b-4443-bc54-c053dc9516a5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -102,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -149,8 +147,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="MAMP PHP 7.2" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
+    <option name="x" value="10" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="689" />
@@ -210,16 +209,15 @@
       <updated>1536267120549</updated>
       <workItem from="1536267121761" duration="98000" />
       <workItem from="1536267223823" duration="12436000" />
-      <workItem from="1536340029881" duration="6343000" />
+      <workItem from="1536340029881" duration="7031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18877000" />
+    <option name="totallyTimeSpent" value="19565000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="23" width="1260" height="689" extended-state="0" />
-    <editor active="true" />
+    <frame x="10" y="23" width="1260" height="689" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2816092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,6 +245,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_mdbootstrap_4.5.9_js_mdb.js">
@@ -276,17 +278,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
