@@ -209,12 +209,12 @@
       <updated>1536267120549</updated>
       <workItem from="1536267121761" duration="98000" />
       <workItem from="1536267223823" duration="12436000" />
-      <workItem from="1536340029881" duration="7031000" />
+      <workItem from="1536340029881" duration="7298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19565000" />
+    <option name="totallyTimeSpent" value="19832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1260" height="689" extended-state="0" />
@@ -247,7 +247,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
+    <expand>
+      <path>
+        <item name="registrationForm" type="b2602c69:ProjectViewProjectNode" />
+        <item name="registrationForm" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="registrationForm" type="b2602c69:ProjectViewProjectNode" />
+        <item name="registrationForm" type="462c0819:PsiDirectoryNode" />
+        <item name=".idea" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="editorHistoryManager">
