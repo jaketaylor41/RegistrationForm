@@ -14,7 +14,7 @@ $url = parse_url(getenv("CLEARDB_COBALT_URL"));
 $server = $url["us-cdbr-iron-east-01.cleardb.net"];
 $username = $url["b97ff3bce68dc2"];
 $password = $url["9a7484b1"];
-$database_name = substr($url["heroku_2d121b77215d1b2"], 1);
+$database_name = substr($url["registration_form"], 1);
 $errors = array();
 
 
@@ -52,7 +52,7 @@ if (isset($_POST['reg_user'])) {
 
     // first check the database to make sure
     // a user does not already exist with the same username and/or email
-    $user_check_query = "SELECT * FROM HerokuTable WHERE username='$personUsername' OR email='$personEmail' LIMIT 1";
+    $user_check_query = "SELECT * FROM heroTable WHERE username='$personUsername' OR email='$personEmail' LIMIT 1";
     $result = mysqli_query($connection, $user_check_query);
     $user = mysqli_fetch_assoc($result);
 
@@ -70,7 +70,7 @@ if (isset($_POST['reg_user'])) {
     if (count($errors) == 0) {
         $password = md5($personPassword);//encrypt the password before saving in the database
 
-        $query = "INSERT INTO `HerokuTable` (`id`, `fName`, `lName`, `email`, `confirmEmail`, `birthday`, `username`, `password`, `confirmPassword`) VALUES (NULL, '$firstName', '$lastName', '$personEmail', '$personConfirmEmail', '$personBirthday', '$personUsername', '$personPassword', '$personConfirmPassword')";
+        $query = "INSERT INTO `heroTable` (`id`, `fName`, `lName`, `email`, `confirmEmail`, `birthday`, `username`, `password`, `confirmPassword`) VALUES (NULL, '$firstName', '$lastName', '$personEmail', '$personConfirmEmail', '$personBirthday', '$personUsername', '$personPassword', '$personConfirmPassword')";
         mysqli_query($connection, $query);
         $_SESSION['username'] = $personUsername;
         $_SESSION['success'] = "You are now logged in";
