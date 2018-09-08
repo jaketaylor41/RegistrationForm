@@ -9,7 +9,7 @@
 //$personPassword = $_GET['passwordInput'];
 //$personConfirmPassword = $_GET['confirmPassword'];
 //echo "Hello " . $firstName . ", welcome to the blog!";
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$url = parse_url(getenv("CLEARDB_COBALT_URL"));
 
 $server = $url["us-cdbr-iron-east-01.cleardb.net"];
 $username = $url["b97ff3bce68dc2"];
