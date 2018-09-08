@@ -1,12 +1,8 @@
-<?php
-include('server.php') ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Register</title>
+    <title>Home</title>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
@@ -14,99 +10,145 @@ include('server.php') ?>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
 
-
-
-
     <style>
-        .card{
-            width: 500px;
-            margin: 0 auto;
-            margin-top: 25px;
-            margin-bottom: 50px;
-
-        }
-
         body{
-            background-image: linear-gradient(to right, #11998e , #38ef7d);
+            background-image: linear-gradient(to right, #43cea2, #185a9d);
         }
 
+        p{
+            width: 80%;
+        }
 
     </style>
 
 </head>
 <body>
 
+<!-- Section: Blog v.3 -->
+<section class="my-5" style="margin-left: 25px;">
 
-<!-- Material form register -->
-<div class="container">
-    <div class="card">
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Recent posts</h2>
+    <!-- Section description -->
+    <p class="text-center dark-grey-text w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <h5 class="card-header info-color white-text text-center py-4">
-            <strong>Sign up</strong>
-        </h5>
+    <!-- Grid row -->
+    <div class="row">
 
-        <!--Card content-->
-        <div class="card-body px-lg-5 pt-0">
+        <!-- Grid column -->
+        <div class="col-lg-5 col-xl-4">
 
-            <!-- Form -->
-            <form class="text-center" style="color: #757575;" method="post" action="index.php">
-                <?php include('errors.php'); ?>
-                <div class="form-row">
-                    <div class="col">
-                        <!-- First name -->
-                        <div class="md-form">
-                            <input type="text" name="fNameInput" class="form-control" placeholder="First Name">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <!-- Last name -->
-                        <div class="md-form">
-                            <input type="text" name="lNameInput" class="form-control" placeholder="Last Name">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- E-mail -->
-                <div class="md-form mt-0">
-                    <input type="email" name="emailInput"class="form-control" placeholder="E-mail">
-                </div>
-
-                <div class="md-form mt-0">
-                    <input type="email" name="confirmEmail" class="form-control" placeholder="Confirm E-mail">
-                </div>
-
-                <!-- DOB -->
-                <div class="md-form">
-                    <input type="date" name="dobInput" class="form-control" placeholder="Birthday">
-                </div>
-
-                <!-- Username -->
-                <div class="md-form">
-                    <input type="text" name="usernameInput" class="form-control" placeholder="Username">
-                </div>
-
-                <!-- Password -->
-                <div class="md-form">
-                    <input type="password" name="passwordInput" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock" placeholder="Password">
-                </div>
-
-                <!-- Confirm Password -->
-                <div class="md-form">
-                    <input type="password" name="confirmPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock" placeholder="Confirm Password">
-                </div>
-
-                <!-- Sign up button -->
-                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" name="reg_user">Register</button>
-
-
-            </form>
-            <!-- Form -->
+            <!-- Featured image -->
+            <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="Sample image">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
 
         </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-7 col-xl-8">
+
+            <!-- Post title -->
+            <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+            <!-- Excerpt -->
+            <p class="dark-grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis cum soluta nobis est eligendi placeat facere aut rerum.</p>
+            <!-- Post data -->
+            <p>by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018</p>
+            <!-- Read more button -->
+            <a class="btn btn-primary btn-md">Read more</a>
+
+        </div>
+        <!-- Grid column -->
 
     </div>
-</div>
-<!-- Material form register -->
+    <!-- Grid row -->
+
+    <hr class="my-5">
+
+    <!-- Grid row -->
+    <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-lg-5 col-xl-4">
+
+            <!-- Featured image -->
+            <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/31.jpg" alt="Sample image">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-7 col-xl-8">
+
+            <!-- Post title -->
+            <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+            <!-- Excerpt -->
+            <p class="dark-grey-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident et accusamus iusto odio dignissimos et dolorum fuga.</p>
+            <!-- Post data -->
+            <p>by <a class="font-weight-bold">Jessica Clark</a>, 16/04/2018</p>
+            <!-- Read more button -->
+            <a class="btn btn-primary btn-md">Read more</a>
+
+        </div>
+        <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+    <hr class="my-5">
+
+    <!-- Grid row -->
+    <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-lg-5 col-xl-4">
+
+            <!-- Featured image -->
+            <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg" alt="Sample image">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-7 col-xl-8">
+
+            <!-- Post title -->
+            <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+            <!-- Excerpt -->
+            <p class="dark-grey-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, psam voluptatem quia consectetur.</p>
+            <!-- Post data -->
+            <p>by <a class="font-weight-bold">Jessica Clark</a>, 12/04/2018</p>
+            <!-- Read more button -->
+            <a class="btn btn-primary btn-md">Read more</a>
+
+        </div>
+        <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+</section>
+<!-- Section: Blog v.3 -->
+
+
+
+
+
+
 
 </body>
 </html>
