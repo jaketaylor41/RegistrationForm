@@ -22,6 +22,11 @@ $errors = array();
 // Create connection
 $connection = mysqli_connect($server, $username, $password, $database_name);
 
+// Check connection
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
     // receive all input values from the form
