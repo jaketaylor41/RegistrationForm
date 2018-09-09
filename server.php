@@ -39,7 +39,7 @@ $db['default'] = array(
     'username' => $cleardb_username,
     'password' => $cleardb_password,
     'database' => $cleardb_db,
-    'dbdriver' => 'mysqli',
+    'dbdriver' => 'mysql',
     'dbprefix' => '',
     'pconnect' => FALSE,
     'db_debug' => (ENVIRONMENT !== 'production'),
