@@ -38,7 +38,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'	=> '',
-    'hostname' => 'ip-10-37-246-97',
+    'hostname' => 'us-cdbr-iron-east-01.cleardb.net',
     'username' => 'b68e314c37d579',
     'password' => '980c8efd',
     'database' => 'heroku_61e6cc90a4490bb',
