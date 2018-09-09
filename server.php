@@ -39,7 +39,7 @@ $db['default'] = array(
     'username' => $cleardb_username,
     'password' => $cleardb_password,
     'database' => $cleardb_db,
-    'dbdriver' => 'mysqli',
+    'dbdriver' => 'mysql',
     'dbprefix' => '',
     'pconnect' => FALSE,
     'db_debug' => (ENVIRONMENT !== 'production'),
@@ -56,12 +56,12 @@ $db['default'] = array(
 );
 
 
-// Create connection
-$connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+//// Create connection
+//$connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
-// Check connection
-if (mysqli_connect_errno()) {
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+//// Check connection
+//if (mysqli_connect_errno()) {
+//    echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
 // REGISTER USER
