@@ -33,9 +33,9 @@ $db['default'] = array(
     'save_queries' => TRUE
 );
 
-//
-//// Create connection
-//$connection = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+
+// Create connection
+$connection = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 // Check connection
 if (mysqli_connect_errno()) {
@@ -100,20 +100,3 @@ if (isset($_POST['reg_user'])) {
         header('location: home.php');
     }
 }
-
-
-//
-//// Check connection
-//if (!$connection) {
-//    die("Connection failed: " . mysqli_connect_error());
-//}
-////echo "Connected successfully";
-//
-//
-//$sql_statement = "INSERT INTO `heroTable` (`id`, `fName`, `lName`, `email`, `confirmEmail`, `birthday`, `username`, `password`, `confirmPassword`) VALUES (NULL, '$firstName', '$lastName', '$personEmail', '$personConfirmEmail', '$personBirthday', '$personUsername', '$personPassword', '$personConfirmPassword')";
-//
-//if (mysqli_query($connection, $sql_statement)) {
-////    echo "New record created successfully";
-//} else {
-//    echo "Error: " . $sql_statement . "<br>" . mysqli_error($connection);
-//}
