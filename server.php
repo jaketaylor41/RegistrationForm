@@ -1,27 +1,5 @@
 <?php
 
-//$firstName = addslashes($_GET['fNameInput']);
-//$lastName = addslashes($_GET['lNameInput']);
-//$personEmail = $_GET['emailInput'];
-//$personConfirmEmail = $_GET['confirmEmail'];
-//$personBirthday = $_GET['dobInput'];
-//$personUsername = $_GET['usernameInput'];
-//$personPassword = $_GET['passwordInput'];
-//$personConfirmPassword = $_GET['confirmPassword'];
-//echo "Hello " . $firstName . ", welcome to the blog!";
-
-//$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-//
-//$server = $url["us-cdbr-iron-east-01.cleardb.net"];
-//$username = $url["b68e314c37d579"];
-//$password = $url["980c8efd"];
-//$database_name = substr($url["heroku_61e6cc90a4490bb"], 1);
-
-
-
-
-
-
 //Get Heroku ClearDB connection information
 $cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $cleardb_server   = $cleardb_url["us-cdbr-iron-east-01.cleardb.net"];
@@ -55,9 +33,9 @@ $db['default'] = array(
     'save_queries' => TRUE
 );
 
-
-// Create connection
-$connection = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+//
+//// Create connection
+//$connection = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 // Check connection
 if (mysqli_connect_errno()) {
