@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f8447d3-c78b-4443-bc54-c053dc9516a5" name="Default Changelist" comment="" />
+    <list default="true" id="7f8447d3-c78b-4443-bc54-c053dc9516a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -257,15 +259,16 @@
       <updated>1536267120549</updated>
       <workItem from="1536267121761" duration="98000" />
       <workItem from="1536267223823" duration="12436000" />
-      <workItem from="1536340029881" duration="36544000" />
+      <workItem from="1536340029881" duration="36853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49078000" />
+    <option name="totallyTimeSpent" value="49387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1260" height="727" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2816092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -395,7 +398,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
