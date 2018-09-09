@@ -22,23 +22,26 @@
 
 
 
-//Get Heroku ClearDB connection information
-$cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$cleardb_server   = $cleardb_url["ip-10-37-246-97"];
-$cleardb_username = $cleardb_url["b68e314c37d579"];
-$cleardb_password = $cleardb_url["980c8efd"];
-$cleardb_db       = substr($cleardb_url["heroku_61e6cc90a4490bb"],1);
+////Get Heroku ClearDB connection information
+//$cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
+//$cleardb_server   = $cleardb_url["ip-10-37-246-97"];
+//$cleardb_username = $cleardb_url["b68e314c37d579"];
+//$cleardb_password = $cleardb_url["980c8efd"];
+//$cleardb_db       = substr($cleardb_url["heroku_61e6cc90a4490bb"],1);
 $errors = array();
+
+
+
 
 $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'dsn'   => '',
-    'hostname' => $cleardb_server,
-    'username' => $cleardb_username,
-    'password' => $cleardb_password,
-    'database' => $cleardb_db,
+    'dsn'	=> '',
+    'hostname' => 'ip-10-37-246-97',
+    'username' => 'b68e314c37d579',
+    'password' => '980c8efd',
+    'database' => 'heroku_61e6cc90a4490bb',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
@@ -54,6 +57,10 @@ $db['default'] = array(
     'failover' => array(),
     'save_queries' => TRUE
 );
+
+
+$active_group = 'default';
+$query_builder = TRUE;
 
 
 // Create connection
