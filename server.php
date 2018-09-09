@@ -35,7 +35,7 @@ $db['default'] = array(
 
 
 // Create connection
-$connection = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $db);
+$connection = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 // Check connection
 if (mysqli_connect_errno()) {
