@@ -28,7 +28,7 @@ $cleardb_server   = $cleardb_url["us-cdbr-iron-east-01.cleardb.net"];
 $cleardb_username = $cleardb_url["b68e314c37d579"];
 $cleardb_password = $cleardb_url["980c8efd"];
 $cleardb_db       = substr($cleardb_url["heroku_61e6cc90a4490bb"],1);
-$errors = array();
+
 
 $active_group = 'default';
 $query_builder = TRUE;
@@ -57,12 +57,14 @@ $db['default'] = array(
 
 
 // Create connection
-$connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+$connection = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 // Check connection
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
+
+$errors = array();
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
