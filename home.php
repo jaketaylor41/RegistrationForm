@@ -1,3 +1,9 @@
+<!--Project Name: Registration Page V111
+//Programmers: Jacob Taylor, Hermes Mimini, Isaiah Camacho, Isaiah DeBenedetto
+//Date: 9/9/18
+//References: https://mdbootstrap.com/
+// Welling, L., & Thomson, L. (2008). PHP and MySQL web development (4th ed.). Boston, MA: Addison-Wesley Professional. ISBN-13: 9780672329166-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
